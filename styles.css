@@ -1,0 +1,94 @@
+input[type="number"] {
+  max-width: 98%;
+}
+
+div.outer {
+  position: relative;
+  top: 41px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+/* Customize fonts */
+body, label, input, button, select { 
+  font-family: 'Helvetica Neue', Helvetica;
+  font-weight: 200;
+  /*overflow: scroll;*/
+}
+h1, h2 { 
+	font-weight: 400; 
+	color: #C29004;
+}
+
+h3, h4 { 
+	font-weight: 400; 
+	color: #B7B7B7;
+}
+
+#controls {
+  /* Appearance */
+  background-color: white;
+  padding: 0 20px 20px 20px;
+  cursor: move;
+  /* Fade out while not hovering */
+  opacity: 0.25;
+  zoom: 0.9;
+  transition: opacity 500ms 1s;
+}
+#controls:hover {
+  /* Fade in while hovering */
+  opacity: 0.95;
+  transition-delay: 0;
+}
+
+/* Position and style citation */
+#cite {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-size: 12px;
+}
+div.navbar.navbar-static-top {
+	margin-bottom: 20px;
+	overflow: visible;
+}
+/* If not using map tiles, show a white background */
+.leaflet-container {
+  background-color: white !important;
+}
+
+.distPlot{
+	width: 100%;
+	height: 100%;
+	text-align: center ;
+}
+
+.span8{
+	width: 100%;
+	height: 100%;
+	text-align: center ;
+	overflow: auto;
+	/*position: fixed;*/
+}
+
+.outer{
+	overflow: auto;
+}
+
+.row{
+	overflow: auto;
+	/*position: fixed;*/
+}
+
+.fixedDiv
+    {
+       position: fixed;
+    }
+
+    .clear
+    {
+       clear: both;
+    }
