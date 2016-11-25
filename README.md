@@ -1,4 +1,6 @@
 # Gold Mining in Data Mining GPF
+[![ghit.me](https://ghit.me/badge.svg?repo=akaifi/GPF)](https://ghit.me/repo/akaifi/GPF)
+
 Data Mining Course team project 
 ---
 Analyzing different forecasting algorithms on gold prices using R and Shiny. Historical Gold Prices dataset has been selected from usagold.com website. Seasonal decomposition, exponential model, ARIMA model, and automated forecasting approaches is used to forecast the price of gold as well as many other algorithms in FORECAST package.
